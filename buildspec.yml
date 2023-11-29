@@ -13,6 +13,4 @@ phases:
 artifacts:
   files:
     - '**/*'
-  base-directory: base_location
-  name: aws-test-pipeline-build-artifact
-  discard-paths: no
+  name: BuildArti
