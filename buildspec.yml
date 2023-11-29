@@ -10,9 +10,9 @@ phases:
   build:
     commands:
       - npm run build:ci
-  artifacts:
-    files:
-      - '**/*'
-    base-directory: base_location
-    name: aws-test-pipeline-build-artifact
-    discard-paths: no
+artifacts:
+  files:
+    - '**/*'
+  base-directory: base_location
+  name: aws-test-pipeline-build-artifact
+  discard-paths: no
