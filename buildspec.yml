@@ -13,7 +13,7 @@ phases:
       - npm run build:ci
   post_build:
     commands:
-      - aws s3 sync dist/frontend/ s3://aws-pipeline-test --delete
+      - aws s3 sync dist/frontend/ s3://aws-pipeline-test-angular --delete
 artifacts:
   files:
     - '**/*'
