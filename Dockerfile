@@ -8,6 +8,4 @@ RUN npm install -g @angular/cli
 
 # stage 2
 COPY . /app
-RUN ng build
-CMD ng serve --host 0.0.0.0 --port 4200
-
+CMD ["npm" , "start" ]
